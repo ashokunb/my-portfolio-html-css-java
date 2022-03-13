@@ -4,16 +4,19 @@ Welcome to my website, this website will have links to differnet projects that I
 on and will display my use of html, CSS and java. 
 
 ## Built with 
+```bash
 *Html
 *CSS
+```
 
 ## Get to know me.
-
-# Projects.
+[](./Images/5.jpg)
+## Projects.
 
 ## Please contact me.
 
-## WEbsite links
+## Website links
 
-Github:
-LinkedIn:
+[Github](https://github.com/ashokunb)
+
+[LinkedIn](https://www.linkedin.com/in/ambroseshokunbi/)
