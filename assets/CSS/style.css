@@ -44,3 +44,23 @@ header button {
     border-radius: 30px;
     cursor: pointer;
 }
+/*makes sure that all of the content in our pages will flex wrap*/
+main {
+    display:fley;
+    flex-wrap: wrap;
+}
+
+main section {
+    background-color: red;
+}
+
+main section h1 {
+    float: right;
+    padding-top: 150px;
+}
+.himg1 img {
+    max-width: 500px;
+    max-height: 500px;
+    padding: 30px;
+    display: inline
+}
