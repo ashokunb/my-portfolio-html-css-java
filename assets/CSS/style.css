@@ -1,30 +1,36 @@
 *{
-margin: 0;
-padding: 50;
+margin: 0%;
+padding: 0%;
 box-sizing: border-box;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 :root{
-    --primary-color: ;
-    --secondary-color: ;
-    --tiertiary-color: ;
+    --primary:white;
+    --secondary: purple
+;
+    --tiertiary: ;
 }
 body {
     background-color: azure;
     margin: 0;
 }
-
+/*header and nav style start here*/
 header {
+    display: flex;
+    flex-grow:unset;
     background-color: aqua;
     padding: 20px 15px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    list-style: none;
 }
 
 nav ul li {
+    float: right;
     display: inline-block;
     padding: 10px 10px;
 }
@@ -44,23 +50,183 @@ header button {
     border-radius: 30px;
     cursor: pointer;
 }
-/*makes sure that all of the content in our pages will flex wrap*/
+/*header/nav style ends and begins main style*/
 main {
-    display:fley;
+    display:flex;
     flex-wrap: wrap;
 }
-
-main section {
-    background-color: red;
-}
-
-main section h1 {
-    float: right;
-    padding-top: 150px;
+/*style for the cool subtitle w/ profile pic*/
+.himg1 {
+    background-color: yellow;
+    width: 50%;
 }
 .himg1 img {
+    flex: 1;
     max-width: 500px;
-    max-height: 500px;
     padding: 30px;
-    display: inline
+    display: block;
+    margin: 10px;
+}
+.himg1 h1 {
+    float: right;
+    padding: 150px;
+    text-align:center;
+    vertical-align:text-bottom;
+}
+/*end image style*/
+
+/*start style for the 4 sections*/
+.content {
+    width: 100%;
+    margin-left: auto;
+}
+
+#about-me h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+#projects-me h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: left;
+}
+#projects-me h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: right;
+}
+/*style for images of the projects section*/
+#projects-me {
+width: 100%;
+padding: 30px;
+display: block;
+margin: 0 auto;
+}
+
+.container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.card {
+flex: 4;
+background:red;
+width: 400px;
+height: 220px;
+margin: 5px;
+}
+.card1 {
+    flex: 8;
+    background:red;
+    width: 400px;
+    height: 100%;
+    margin: 5px;
+    justify-content:center;
+}
+.card-image3 {
+    background-image: url("/my-portfolio-html-css-java/Images/4.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 0px;
+    }
+.card-image1 {
+background-image: url("/my-portfolio-html-css-java/Images/2.jpg");
+background-size: cover;
+height: 180px;
+margin-bottom: 0px;
+}
+.card-image2 {
+    background-image: url("/my-portfolio-html-css-java/Images/3.jpg");
+    background-size: cover;
+    height: 180px;
+    margin-bottom: 0px;
+}
+#collumn1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*end style for the projects section*/
+#resume-me h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: left;
+}
+#contact-me h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+#about-me, #projects-me, #contact-me {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+#resume-me {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+#contact-me {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+#contact-me li {
+    display: inline-block;
+    padding: 10px 10px;
+    float: left;
+}
+/*button style for resume and contact me*/
+#resume-me button {
+    padding: 20px 35px 25px;
+    background-color: yellow;
+    border: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    }
+
+#contact-me button {
+padding: 20px 35px 25px;
+background-color: yellow;
+border: 10px;
+border-radius: 30px;
+cursor: pointer;
+font-size: 16px;
+font-size: 16px;
+font-weight: 500;
+color: black;
+text-decoration: none;
+}
+/*end style for buttons*/
+
+
+footer {
+    padding: 10px;
+    margin:auto;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: red;
 }
