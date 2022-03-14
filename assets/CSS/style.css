@@ -111,13 +111,13 @@ padding: 30px;
 display: block;
 
 }
-#projects-me {
 
-}
 .p1 {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center;
 }
 .p1 img {
     border: 3px solid;
@@ -125,10 +125,15 @@ display: block;
     padding: 10px 10px 10px 10px;
     width: 800px;
     height: 400px;
-    display: flex;
-    flex-shrink: inherit;
 }
 
+.child-one img {
+    width: 1000px;
+    height: 600px;
+}
+.child-two {
+
+}
 
 /* 
 .container {
