@@ -10,11 +10,11 @@ on and will display my use of html, CSS and java.
 ```
 
 ## Get to know me.
-[](./Images/5.jpg)
+![Get to know me](./Images/6.jpg)
 ## Projects.
-
+![Projects](./Images/9.jpg)
 ## Please contact me.
-
+![Get to know me](./Images/7.jpg)
 ## Website links
 
 [Github](https://github.com/ashokunb)

@@ -105,13 +105,32 @@ main {
     text-align: right;
 }
 /*style for images of the projects section*/
-#projects-me {
+#projects-me h2 {
 width: 100%;
 padding: 30px;
 display: block;
-margin: 0 auto;
+
+}
+#projects-me {
+
+}
+.p1 {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.p1 img {
+    border: 3px solid;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-shrink: inherit;
 }
 
+
+/* 
 .container {
 display: flex;
 justify-content: center;
@@ -151,7 +170,7 @@ margin-bottom: 0px;
     background-size: cover;
     height: 180px;
     margin-bottom: 0px;
-}
+} */
 
 
 /*end style for the projects section*/
