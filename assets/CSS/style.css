@@ -60,18 +60,17 @@ main {
 /*style for the cool subtitle w/ profile pic*/
 .himg1 {
     background-color: var(--tiertiary);
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
 }
 .himg1 img {
     flex: 1;
-    max-width: 500px;
+    max-width: 600px;
     padding: 10px 10px 10px 10px;
     display: block;
-    margin: 10px;
+    margin: 10px 10px 10px 10px;
     display: flex;
-    flex-shrink: inherit;
 }
 .himg1 h1 {
     float: right;
@@ -154,6 +153,7 @@ justify-content: center;
     padding: 20px;
     background-color: var(--secondary);
     color: var(--primary);
+    width: 100%;
 }
 #resume-me {
     margin-bottom: 20px;
