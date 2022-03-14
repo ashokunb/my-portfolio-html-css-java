@@ -153,9 +153,8 @@ justify-content: center;
     background-color: var(--secondary);
     color: var(--primary);
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
 }
+
 #resume-me {
     margin-bottom: 20px;
     padding: 20px;
