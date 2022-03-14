@@ -19,7 +19,6 @@ body {
 /*header and nav style start here*/
 header {
     display: flex;
-    flex-grow:unset;
     background-color: rgb(70, 70, 70);
     padding: 20px 15px 15px 15px;
     justify-content: space-between;
@@ -154,6 +153,8 @@ justify-content: center;
     background-color: var(--secondary);
     color: var(--primary);
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 #resume-me {
     margin-bottom: 20px;
