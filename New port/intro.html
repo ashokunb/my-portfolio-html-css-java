@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="./CSS/indexstyle.css">
 </head>
 
-<body>
-    <main>
-        <header class="column is-half">
-            <nav class="navbar">
+<body class="">
+    <main class="has-navbar-fixed-top">
+        <header class="column has-background-info">
+            <nav class="navbaris-transparent is-fixed-top-desktop ">
                 <div id="navcontent" class="navbar-start mt-3 navbar-menu">
                     
-                    <a class="navbar-item" href="#about-me"><p>About me</p></a>
+                    <a class="navbar-item" href="./index.html"><p>About me</p></a>
                     
                     <a class="navbar-item" href="#projects-me"><p>Projects</p></a>
                     
@@ -28,8 +28,8 @@
             </nav>
         </header>
 
-        <section class="hero has-text-centered">
-            <div class="hero-body">
+        <section class="hero has-text-centered pb-6">
+            <div class="hero is-info hero-body mb-6">
                 <div class="columns is-centered">
                     <div class="column">
                         <h1 class="title is-size-1-desktop is-size-2-table is-size-3-mobile">
@@ -40,7 +40,8 @@
                 </div>
             </div>
 
-            <section id="projects-me" class=" container">
+            <section id="projects-me" class="container ">
+                <article class="">
                 <h2 class="title">Projects</h2>
 
                 <div class="columns is-flex-wrap-wrap is-justify-content-center">
@@ -61,8 +62,46 @@
                         <a href="https://ashokunb.github.io/Act-LikeU-Been-There/" target="_blank"> <img src="../Images/act like.jpg" alt="Act-LikeU-Been-There"></a>
                     </div>  
                 </div>
+                </article>
             </section>
         </section>
+
+        <article id="resume-me" class="container p-6 has-background-light">
+            <div class="has-text-centered mb-6"><h2 class="title ">Resume</h2></div>
+
+            <div class="columns is-flex-wrap-wrap is-justify-content-center card has-text-centered block">
+                <div class=" column is-one-thirds is-half-tablet is-12-mobile">
+                    <p class="block">Education</p>
+            
+                    <ul>
+                        <li>Rice University Coding Boot-Camp
+                            <br>Full-stack Web Dev (August-2022)
+                        </li>
+                        <br>
+                        <li>Texas Tech University
+                            <br>Mathematics (December 2020)
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=" column is-one-thirds is-half-tablet is-12-mobile">
+                    <p class="block">Technologies</p>
+                    <ul>
+                        <li class="mb-1">HTML</li>
+                        <li class="mb-1">CSS</li>
+                        <li class="mb-1">JavaScript</li>
+                    </ul>
+                </div>   
+            </div>
+            <div class="has-text-centered">
+                <a href="./Images/Resume 2021 - 3.pdf" target="_blank" >
+                    <button class="button is-rounded mt-6 has-text-weight-bold">Full Resume</button></a>
+            </div>
+        </article>
+
+        
+            
+    </section>
     </main>
 </body>
 </html>
