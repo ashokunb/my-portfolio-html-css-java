@@ -1,0 +1,227 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+:root{
+    --primary:white;
+    --secondary: rgb(66, 66, 66);
+    --tiertiary: grey;
+    --fourth: white; 
+    --fifth: azure;
+}
+body {
+    background-color: var(--fifth);
+    margin: 0;
+}
+/*header and nav style start here*/
+header {
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    padding: 20px 15px 15px 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    list-style: none;
+    color: var(--fourth);
+}
+
+nav ul li {
+    float: right;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+li a button {
+font-size: 16px;
+font-weight: bold;
+color: var(--fourth);
+text-decoration: none;
+}
+
+
+header button {
+    padding: 20px 35px 25px;
+    background-color: var(--tiertiary);
+    border: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/*header/nav style ends and begins main style*/
+main {
+    display:flex;
+    flex-wrap: wrap;
+}
+/*style for the cool subtitle w/ profile pic*/
+.himg1 {
+    background-color: var(--tiertiary);
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.himg1 img {
+    flex: 1;
+    max-width: 600px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+}
+.himg1 h1 {
+    float: right;
+    padding: 150px;
+    text-align:center;
+    vertical-align:text-bottom;
+}
+/*end image style*/
+
+/*start style for the 4 sections*/
+.content {
+    width: 100%;
+    margin-left: auto;
+}
+
+#about-me h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+#projects-me h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: left;
+}
+
+/*style for images of the projects section*/
+#projects-me h2 {
+width: 100%;
+height: 100%;
+padding: 30px;
+display: block;
+}
+
+.container1 {
+margin: 10px 10px 10px 10px;
+padding: 10px 10px 50px 10px;
+max-width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.p1 img {
+border: 3px solid;
+margin: 10px 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+width: 100%;
+height: 100%;
+}
+.child-one img {
+width: 100%;
+height: 100%;
+}
+.child-two {
+    padding: 10px;
+}
+.container2 {
+padding: 90px 30px 30px 30px;
+justify-content: center;
+}
+
+/*end style for the projects section*/
+#resume-me h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: left;
+}
+#contact-me h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+#about-me, #projects-me, #contact-me {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    width: 100%;
+}
+
+#resume-me {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+#contact-me {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    min-height: 20%;
+}
+
+#contact-me li {
+    display: flex;
+    padding: 10px 10px;
+    float: left;
+}
+/*button style for resume and contact me*/
+#resume-me button {
+    padding: 20px 20px 20px;
+    background-color: var(--tiertiary);
+    border: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
+    color: var(--fourth);
+    text-decoration: none;
+    display: flex;
+    }
+
+#contact-me button {
+padding: 20px 35px 25px;
+background-color: var(--tiertiary);
+border: 10px;
+border-radius: 30px;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+color: var(--fourth);
+text-decoration: none;
+}
+
+.p1 button {
+    padding: 10px 10px 10px;
+    background-color: var(--tiertiary);
+    border: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--fourth);
+    text-decoration: none;
+}
+/*end style for buttons*/
+
+
+footer {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--fifth);
+    color: var(--secondary);
+    display: flex;
+    flex-wrap: wrap;
+}
+
